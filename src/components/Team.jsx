@@ -8,42 +8,42 @@ function Team() {
       position: 'PMO 기획대표',
       email: 'cony@yumyum.im',
       description: '비즈니스 전략과 기획을 총괄합니다',
-      image: '/김경임.avif'
+      image: '/kim-kyungim.avif'
     },
     {
       name: '권세영',
       position: '백엔드 개발 API',
       email: 'seyoung@yumyum.im',
       description: '안정적인 API 서버를 구축합니다',
-      image: '/권세영.avif'
+      image: '/kwon-seyoung.avif'
     },
     {
       name: '정도원',
       position: '영업 마케팅',
       email: 'dowon@yumyum.im',
       description: '고객과의 소통을 책임집니다',
-      image: '/정도원.avif'
+      image: '/jung-dowon.avif'
     },
     {
       name: '이화랑',
       position: '디자인',
       email: 'rang@tiny-works.net',
       description: '사용자 경험을 디자인합니다',
-      image: '/이화랑.avif'
+      image: '/lee-hwarang.avif'
     },
     {
       name: '신석재',
       position: '프론트 개발 POS',
       email: 'seokjae@yumyum.im',
       description: 'POS 시스템을 개발합니다',
-      image: '/신석재.avif'
+      image: '/shin-seokjae.avif'
     },
     {
       name: '김완태',
       position: '백엔드 개발 인프라',
       email: 'kwt@yumyum.im',
       description: '안정적인 인프라를 구축합니다',
-      image: '/김완태.avif'
+      image: '/kim-wantae.avif'
     }
   ]
 
