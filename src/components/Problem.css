@@ -1,0 +1,91 @@
+.problem {
+  background: #FAFAFA;
+}
+
+.problem-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.problem-card {
+  background: white;
+  padding: 48px 44px;
+  border-radius: 24px;
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s;
+}
+
+.problem-card:hover {
+  border-color: #FF6B6B;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+
+.problem-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 24px;
+}
+
+.problem-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.problem-description p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.problem-description strong {
+  color: #FF6B6B;
+  font-weight: 700;
+}
+
+.impact-box {
+  background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+  padding: 60px 50px;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.impact-text {
+  font-size: 24px;
+  color: white;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.impact-text strong {
+  font-weight: 900;
+  color: #FFE66D;
+}
+
+@media (max-width: 768px) {
+  .problem-card {
+    padding: 36px 28px;
+  }
+
+
+  .problem-title {
+    font-size: 24px;
+  }
+
+  .problem-description p {
+    font-size: 16px;
+  }
+
+  .impact-box {
+    padding: 40px 30px;
+  }
+
+  .impact-text {
+    font-size: 18px;
+  }
+}
+

@@ -1,0 +1,137 @@
+.service-intro {
+  background: white;
+}
+
+.intro-hero {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.intro-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 24px;
+}
+
+.intro-subtitle {
+  font-size: 24px;
+  color: #666;
+  font-weight: 500;
+}
+
+.intro-main-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.feature-box {
+  background: linear-gradient(135deg, #FFF5F5 0%, #FFE8E8 100%);
+  padding: 40px 36px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(255, 107, 107, 0.15);
+  border-color: #FF6B6B;
+}
+
+.feature-number {
+  font-size: 36px;
+  font-weight: 900;
+  color: #FF6B6B;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-box p {
+  font-size: 18px;
+  color: #191919;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.mission-box {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+  padding: 60px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+.mission-title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.mission-text {
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.95;
+}
+
+@media (max-width: 1024px) {
+  .intro-title {
+    font-size: 36px;
+  }
+
+  .intro-subtitle {
+    font-size: 20px;
+  }
+
+  .intro-main-features {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 28px;
+  }
+
+  .intro-subtitle {
+    font-size: 18px;
+  }
+
+  .feature-box {
+    padding: 30px 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .feature-box p {
+    font-size: 16px;
+  }
+
+  .mission-box {
+    padding: 40px 30px;
+  }
+
+
+  .mission-title {
+    font-size: 24px;
+  }
+
+  .mission-text {
+    font-size: 18px;
+  }
+}
+

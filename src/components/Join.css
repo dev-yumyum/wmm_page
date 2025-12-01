@@ -1,0 +1,168 @@
+.join {
+  background: white;
+}
+
+.positions-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.position-category {
+  background: #FAFAFA;
+  padding: 40px 32px;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.position-category:hover {
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+.category-title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 28px;
+  color: #191919;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #FF6B6B;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.job-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #666;
+  transition: all 0.3s;
+  padding: 8px 0;
+}
+
+.job-item:hover {
+  color: #FF6B6B;
+  transform: translateX(5px);
+}
+
+.job-bullet {
+  color: #FF6B6B;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.job-name {
+  font-weight: 500;
+}
+
+.join-cta {
+  background: linear-gradient(135deg, #FFE8E8 0%, #FFF0E6 100%);
+  padding: 80px 60px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #191919;
+}
+
+.cta-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-apply,
+.btn-contact {
+  padding: 18px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.btn-apply {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+  color: white;
+}
+
+.btn-apply:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(255, 107, 107, 0.4);
+}
+
+.btn-contact {
+  background: white;
+  color: #FF6B6B;
+  border: 2px solid #FF6B6B;
+}
+
+.btn-contact:hover {
+  background: #FF6B6B;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .positions-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .positions-container {
+    margin-bottom: 60px;
+  }
+
+  .position-category {
+    padding: 32px 24px;
+  }
+
+  .category-title {
+    font-size: 24px;
+  }
+
+  .job-item {
+    font-size: 15px;
+  }
+
+  .join-cta {
+    padding: 60px 30px;
+  }
+
+  .cta-title {
+    font-size: 28px;
+  }
+
+  .cta-description {
+    font-size: 16px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-apply,
+  .btn-contact {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+

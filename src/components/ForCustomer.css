@@ -1,0 +1,270 @@
+.for-customer {
+  background: white;
+}
+
+.customer-intro {
+  background: linear-gradient(135deg, #FFF5F5 0%, #FFE8E8 100%);
+  padding: 50px 44px;
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.intro-text:last-child {
+  margin-bottom: 0;
+}
+
+.intro-text strong {
+  color: #FF6B6B;
+  font-weight: 700;
+}
+
+.target-section,
+.benefits-section {
+  margin-bottom: 80px;
+}
+
+.subsection-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 20px;
+}
+
+.subsection-description {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.subsection-description strong {
+  color: #FF6B6B;
+  font-weight: 700;
+}
+
+.target-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.target-card {
+  background: #FAFAFA;
+  padding: 40px 32px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.target-card:hover {
+  background: white;
+  border-color: #FF6B6B;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+.target-number {
+  font-size: 36px;
+  font-weight: 900;
+  color: #FF6B6B;
+  margin-bottom: 20px;
+}
+
+.target-title {
+  font-size: 22px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 12px;
+}
+
+.target-description {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.price-problem {
+  margin-bottom: 40px;
+}
+
+.problem-box {
+  background: white;
+  padding: 44px 40px;
+  border-radius: 24px;
+  border: 2px solid #f0f0f0;
+}
+
+.problem-title {
+  font-size: 28px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 24px;
+}
+
+.problem-text {
+  font-size: 17px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.price-highlight {
+  background: linear-gradient(135deg, #FFE8E8 0%, #FFF0E6 100%);
+  padding: 32px;
+  border-radius: 16px;
+  border-left: 4px solid #FF6B6B;
+}
+
+.price-highlight p {
+  font-size: 17px;
+  color: #191919;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.price-highlight p:last-child {
+  margin-bottom: 0;
+}
+
+.price-highlight strong {
+  color: #FF6B6B;
+  font-weight: 900;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.benefit-card {
+  background: #FAFAFA;
+  padding: 36px 32px;
+  border-radius: 20px;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.benefit-card:hover {
+  background: white;
+  border-color: #FF6B6B;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+.benefit-card.highlight {
+  background: linear-gradient(135deg, #FFF5F5 0%, #FFE8E8 100%);
+  border-color: #FF6B6B;
+}
+
+.benefit-number {
+  font-size: 32px;
+  font-weight: 900;
+  color: #FF6B6B;
+  margin-bottom: 20px;
+}
+
+.benefit-card .benefit-title {
+  font-size: 22px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 12px;
+}
+
+.benefit-card .benefit-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.ux-feature {
+  background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+  padding: 50px 44px;
+  border-radius: 24px;
+  color: white;
+}
+
+.feature-title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 16px;
+  color: #FFE66D;
+}
+
+.feature-text {
+  font-size: 18px;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+.feature-text strong {
+  color: #FFE66D;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .target-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-intro,
+  .problem-box,
+  .ux-feature {
+    padding: 36px 28px;
+  }
+
+  .intro-text,
+  .subsection-description,
+  .problem-text,
+  .feature-text {
+    font-size: 16px;
+  }
+
+  .subsection-title {
+    font-size: 28px;
+  }
+
+  .target-card,
+  .benefit-card {
+    padding: 28px 24px;
+  }
+
+
+  .target-title,
+  .benefit-card .benefit-title {
+    font-size: 20px;
+  }
+
+  .problem-title,
+  .feature-title {
+    font-size: 24px;
+  }
+
+  .price-highlight {
+    padding: 24px;
+  }
+
+  .price-highlight p {
+    font-size: 15px;
+  }
+
+  .ux-feature {
+    text-align: center;
+  }
+}
+

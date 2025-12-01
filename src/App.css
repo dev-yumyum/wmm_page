@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #191919;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+  }
+}
+

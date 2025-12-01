@@ -1,0 +1,203 @@
+.for-owner {
+  background: #FAFAFA;
+}
+
+.owner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.problem-section {
+  background: white;
+  padding: 50px 44px;
+  border-radius: 24px;
+  border: 2px solid #f0f0f0;
+}
+
+
+.owner-subtitle {
+  font-size: 32px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 24px;
+}
+
+.problem-list p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.problem-list strong {
+  color: #FF6B6B;
+  font-weight: 700;
+}
+
+.issue-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.issue-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 17px;
+  color: #666;
+  padding: 16px 20px;
+  background: #FAFAFA;
+  border-radius: 12px;
+}
+
+.issue-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.solution-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.insight-box {
+  background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
+  padding: 50px 44px;
+  border-radius: 24px;
+  color: white;
+}
+
+.insight-title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 24px;
+  color: #FFE66D;
+}
+
+.insight-text {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  opacity: 0.95;
+}
+
+.insight-text:last-child {
+  margin-bottom: 0;
+}
+
+.insight-text strong {
+  color: #FFE66D;
+  font-weight: 700;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.benefit-card {
+  background: white;
+  padding: 40px 36px;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s;
+}
+
+.benefit-card:hover {
+  border-color: #FF6B6B;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+}
+
+.benefit-card.highlight {
+  background: linear-gradient(135deg, #FFF5F5 0%, #FFE8E8 100%);
+  border-color: #FF6B6B;
+}
+
+.benefit-icon {
+  width: 40px;
+  height: 40px;
+  background: #FF6B6B;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.benefit-content {
+  flex: 1;
+}
+
+.benefit-title {
+  font-size: 20px;
+  font-weight: 900;
+  color: #191919;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.benefit-title .cross {
+  color: #dc3545;
+}
+
+.benefit-title .check {
+  color: #4CAF50;
+}
+
+.benefit-description {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .problem-section,
+  .insight-box {
+    padding: 36px 28px;
+  }
+
+
+  .owner-subtitle {
+    font-size: 24px;
+  }
+
+  .problem-list p,
+  .insight-text {
+    font-size: 16px;
+  }
+
+  .issue-list li {
+    font-size: 15px;
+    padding: 12px 16px;
+  }
+
+  .insight-title {
+    font-size: 24px;
+  }
+
+  .benefit-card {
+    padding: 28px 24px;
+    flex-direction: column;
+  }
+
+  .benefit-title {
+    font-size: 18px;
+  }
+}
+
