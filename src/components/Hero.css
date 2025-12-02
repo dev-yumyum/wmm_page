@@ -48,39 +48,40 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   overflow: hidden;
-  max-height: 400px;
+  max-height: 500px;
 }
 
 .hero-image {
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
   height: auto;
-  object-fit: cover;
-  object-position: top;
-  transform: scale(1);
+  object-fit: contain;
+  object-position: top center;
+  transform: scale(0.7);
+  transform-origin: top center;
 }
 
 .hero-title {
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 900;
   line-height: 1.2;
   color: #191919;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .hero-description {
-  font-size: 24px;
+  font-size: 20px;
   color: #666;
-  margin-bottom: 60px;
+  margin-bottom: 48px;
   line-height: 1.6;
   font-weight: 400;
 }
 
 .hero-values {
   display: flex;
-  gap: 60px;
+  gap: 48px;
   align-items: center;
 }
 
@@ -88,17 +89,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 .value-icon {
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
   color: #FF6B6B;
 }
 
 .value-text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #191919;
 }
@@ -109,15 +110,15 @@
   }
 
   .hero-title {
-    font-size: 56px;
+    font-size: 52px;
   }
 
   .hero-description {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .hero-values {
-    gap: 40px;
+    gap: 36px;
   }
 
   .value-icon {
@@ -126,15 +127,15 @@
   }
 
   .value-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .hero-right {
-    max-height: 350px;
+    max-height: 400px;
   }
 
   .hero-image {
-    max-width: 400px;
+    max-width: 280px;
   }
 }
 
@@ -145,7 +146,7 @@
 
   .hero-content {
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
   }
 
   .hero-left {
@@ -159,16 +160,17 @@
   }
 
   .hero-title {
-    font-size: 40px;
+    font-size: 36px;
+    margin-bottom: 20px;
   }
 
   .hero-description {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 16px;
+    margin-bottom: 32px;
   }
 
   .hero-values {
-    gap: 24px;
+    gap: 20px;
     justify-content: center;
   }
 
@@ -178,11 +180,11 @@
   }
 
   .value-text {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .hero-image {
-    max-width: 350px;
+    max-width: 240px;
   }
 }
 
