@@ -87,15 +87,7 @@
 
 .value-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 12px;
-}
-
-.value-icon {
-  width: 56px;
-  height: 56px;
-  color: #FF6B6B;
 }
 
 .value-text {
@@ -119,11 +111,6 @@
 
   .hero-values {
     gap: 36px;
-  }
-
-  .value-icon {
-    width: 48px;
-    height: 48px;
   }
 
   .value-text {
@@ -172,11 +159,6 @@
   .hero-values {
     gap: 20px;
     justify-content: center;
-  }
-
-  .value-icon {
-    width: 40px;
-    height: 40px;
   }
 
   .value-text {
