@@ -10,6 +10,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #191919;
   line-height: 1.6;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 html {
