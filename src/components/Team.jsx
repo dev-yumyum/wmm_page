@@ -22,7 +22,7 @@ function Team() {
       position: '영업 마케팅',
       email: 'dowon@yumyum.im',
       description: '고객과의 소통을 책임집니다',
-      image: '/jung-dowon.avif'
+      image: '/도원프로필.png'
     },
     {
       name: '이화랑',
