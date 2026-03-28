@@ -44,6 +44,13 @@ function Team() {
       email: 'kwt@yumyum.im',
       description: '안정적인 인프라를 구축합니다',
       image: '/kim-wantae.avif'
+    },
+    {
+      name: '우지원',
+      position: '백엔드 개발 API',
+      email: '',
+      description: '서버를 개발하고 운영합니다',
+      image: '/G1.png'
     }
   ]
 
